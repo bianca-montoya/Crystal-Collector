@@ -1,0 +1,127 @@
+
+<!-- The Crystals Collector Game -->
+<!-- created: July 2, 2017 11:37AM -->
+<!-- Author: (Bianca Montoya) -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+  <title>The Crystals Collector Game</title>
+
+  <!-- This is my site avatar. -->
+   <link rel="bianca montoya icon" href="https://gallery.mailchimp.com/2ad9b8b84e2a8399a9024f110/images/9e3f3ef6-b2f2-49f7-a898-8f926664408d.png" type="image/io">
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- My CSS -->
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+  <!-- This is my header. -->
+
+
+ <div class="page-header panel panel-default">
+  <h1 style="padding-left: 20px;">Crystal Collector</h1>
+ </div>
+
+  <!-- This is my game's body. -->
+
+  <div class="panel panel-default">
+  <div class="panel-body">
+    You will be given a random number at the start of the game.
+    <br>
+    There are four crystals below. By clicking on a crystal you will adda specific amount of points to your total score.
+    <br>
+    You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+    <br>
+    The value of each crystal is hidden from you until you click on it.
+    <br>
+    Eachtime when the game starts, the game will change the values of each crystal.
+  </div>
+  </div>
+
+  <!-- This is my random number & wins/losses row. -->
+
+  <div class="panel panel-success col-md-12">
+  <div class="panel-body">
+  <div class="row">
+  <div class="col-md-8">
+     <div id="random-number">Random Number: </div>
+  </div>
+  <div class="col-md-4">
+     <div id="wins">Wins: </div>
+     <div id="losses">Losses: </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- These are my jewels. -->
+
+  <div class="panel panel-warning col-md-12">
+  <div class="panel-body">
+  <div class="row">
+  <div class="col-md-3">
+     <div id="jewel-pink"><img src="assets/images/pink-crystal.png" style="display: block;
+    margin: 0 auto; width: 100px;" />
+     </div>
+  </div>
+  <div class="col-md-3">
+     <div id="jewel-green"><img src="assets/images/green-crystal.png" style="display: block;
+    margin: 0 auto; width: 100px;" />
+     </div>
+  </div>
+  <div class="col-md-3">
+     <div id="jewel-yellow"><img src="assets/images/yellow-crystal.png" style="display: block;
+    margin: 0 auto; width: 100px;" />
+     </div>
+  </div>
+  <div class="col-md-3">
+     <div id="jewel-purple"><img src="assets/images/purple-crystal.png" style="display: block;
+    margin: 0 auto; width: 100px;" />
+     </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+  <!-- This is my total score row. -->
+
+  <div class="panel panel-success col-md-12">
+  <div class="panel-body">
+  <div class="row">
+     <div id="total-score">Total Score: </div>
+  </div>
+  </div>
+  </div>
+
+
+  <!-- This is my site footer.  -->
+
+  <footer class="panel panel-danger col-md-12">
+  <p>&copy; Copyright 2017 Bianca Montoya</p>
+  </footer>
+ 
+    <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- My JavaScript -->
+  <script src="assets/javascript/game.js"></script>
+  
+</body>
+
+</html>

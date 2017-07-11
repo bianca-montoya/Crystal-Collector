@@ -1,0 +1,27 @@
+html {
+  background-image: url('../images/whirlpool.png');
+}
+
+body {
+	margin-left: 10%;
+	margin-right:10%;
+	background-color: transparent;
+}
+
+.panel-success {
+	background-color: #EEF9D1;
+}
+
+.panel-warning {
+	border: none;
+}
+
+.panel-danger {
+	background-color: #BAB9B8;
+	text-align: center;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
